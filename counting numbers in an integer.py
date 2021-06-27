@@ -7,6 +7,6 @@ except:
     raise ValueError
     
 for i in a:
-    if i =="2":
+    if i =="2": #if we wanna count how many two's there are in an integer
         list.append(i)
 print(len(list))
