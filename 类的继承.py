@@ -1,4 +1,4 @@
-class Audi(Car):  #这里的Car就是父类，这里没把Car的类给写出来
+class Audi(Car):  #这里的Car就是父类，这里没把Car的类给写出来666666666666666
     def __init__(self,type):
         self.brand = 'Audi'
         print(self.type)
