@@ -5,6 +5,7 @@ try:
     a == int
 except:
     raise ValueError
+
     
 for i in a:
     if i =="2": #if we wanna count how many two's there are in an integer
