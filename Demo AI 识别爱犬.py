@@ -34,7 +34,7 @@ class DogPrediction(object):
             print(self.DogType[count], "概率", percent)
             count += 1
 
-    查看图片
+    #查看图片
     def ShowPredImg(self):
         img = Image.open(self.predict_file)
         plt.imshow(img)
